@@ -2,11 +2,7 @@
     "servers": {
         "vibegit": {
             "type": "stdio",
-            "command": "vibegit-mcp",
-            "description": "VibeGit MCP server for conversation logging and analysis",
-            "env": {
-                "VIBE_SESSION_TIMEOUT_MINUTES": "30"
-            }
+            "command": "vibegit-mcp"
         }
     }
 }
