@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "round_id": "round-20250912T062453Z-9ec2",
+  "session_id": "sess-20250912T041010Z-1db8",
+  "started_at": "2025-09-12T06:24:53.901Z",
+  "ended_at": "2025-09-12T06:24:53.901Z",
+  "status": "ok",
+  "events": [
+    {
+      "seq": 1,
+      "ts": "2025-09-12T06:24:53.901Z",
+      "type": "user_message",
+      "content": "把发布的方式总结到server下的README里面",
+      "meta": {}
+    },
+    {
+      "seq": 2,
+      "ts": "2025-09-12T06:24:53.902Z",
+      "type": "assistant_message",
+      "content": "我来帮你把发布方式总结到server目录下的README.md文件中，让其他开发者能够清楚地了解如何发布这个包。"
+    },
+    {
+      "seq": 3,
+      "ts": "2025-09-12T06:24:53.903Z",
+      "type": "file_view",
+      "path": "d:\\Projects\\VibeGit\\server\\README.md"
+    },
+    {
+      "seq": 4,
+      "ts": "2025-09-12T06:24:53.904Z",
+      "type": "file_write",
+      "path": "d:\\Projects\\VibeGit\\server\\README.md"
+    },
+    {
+      "seq": 5,
+      "ts": "2025-09-12T06:24:53.905Z",
+      "type": "tool_call",
+      "name": "read_file",
+      "args_summary": "读取当前README内容"
+    },
+    {
+      "seq": 6,
+      "ts": "2025-09-12T06:24:53.906Z",
+      "type": "tool_call",
+      "name": "replace_string_in_file",
+      "args_summary": "添加发布说明章节"
+    }
+  ],
+  "stats": {
+    "user_message": 1,
+    "assistant_message": 1,
+    "file_view": 1,
+    "file_write": 1,
+    "tool_call": 2
+  }
+}
