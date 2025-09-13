@@ -2,15 +2,17 @@
 
 A Model Context Protocol (MCP) server for logging and analyzing AI assistant conversations.
 
+## Prerequisites
+
 You need only two steps to get started:
 
-## Step 1: Installation
+### Step 1: Installation
 
 ```bash
 pip install vibegit-mcp
 ```
 
-## Step 2: Configuration
+### Step 2: Configuration
 
 Once installed, you can configure the MCP configuration file to enable the VibeGit MCP server. Assuming you are using VSCode, you can add a `mcp.json` file in the `.vscode/` directory of your project with the following content:
 
