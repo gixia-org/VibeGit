@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "round_id": "round-20250913T124743Z-678a",
+  "session_id": "sess-20250913T120947Z-d0b3",
+  "started_at": "2025-09-13T12:47:43.497Z",
+  "ended_at": "2025-09-13T12:47:43.497Z",
+  "status": "ok",
+  "events": [
+    {
+      "seq": 1,
+      "ts": "2025-09-13T12:47:43.497Z",
+      "type": "user_message",
+      "content": "请问1+1等于几？",
+      "meta": {}
+    },
+    {
+      "seq": 2,
+      "ts": "2025-09-13T12:47:43.498Z",
+      "type": "assistant_message",
+      "content": "1 + 1 = 2\n\n这是一个基本的数学问题。1加1等于2。"
+    }
+  ],
+  "stats": {
+    "user_message": 1,
+    "assistant_message": 1
+  }
+}

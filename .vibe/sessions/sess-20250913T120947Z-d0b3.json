@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "session_id": "sess-20250913T120947Z-d0b3",
+  "started_at": "2025-09-13T12:09:47.068Z",
+  "ended_at": null,
+  "round_ids": [
+    "round-20250913T121111Z-f859",
+    "round-20250913T121755Z-565d",
+    "round-20250913T121755Z-a58e",
+    "round-20250913T122311Z-f577",
+    "round-20250913T122311Z-8ff9",
+    "round-20250913T122706Z-3317",
+    "round-20250913T123528Z-9a87",
+    "round-20250913T123543Z-6a8b",
+    "round-20250913T123817Z-c911",
+    "round-20250913T123817Z-4d85",
+    "round-20250913T123854Z-19ab",
+    "round-20250913T124123Z-bf7e",
+    "round-20250913T124123Z-6ae0",
+    "round-20250913T124217Z-08ee",
+    "round-20250913T124228Z-11a2",
+    "round-20250913T124743Z-678a",
+    "round-20250913T124921Z-f425",
+    "round-20250913T125103Z-0c01",
+    "round-20250913T125243Z-19f3",
+    "round-20250913T125459Z-16e8"
+  ],
+  "stats": {
+    "round_count": 20,
+    "events": 68
+  },
+  "hint": null
+}

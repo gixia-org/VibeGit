@@ -14,6 +14,9 @@ VibeGit MCP Server - 用于记录和跟踪AI助手与用户对话的MCP服务器
 3. 提供结构化的事件记录
 """
 
+import os
+import sys
+import json
 from datetime import datetime, timedelta
 from typing import Any, Dict, List, Optional
 
@@ -21,6 +24,14 @@ from mcp.server import FastMCP
 
 from .store import VibeStore
 
+
+# 在Windows上强制stdout使用UTF-8
+if hasattr(sys.stdout, 'reconfigure'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+        sys.stderr.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
 
 # 创建FastMCP服务器实例，名称为"vibegit-mcp"
 # FastMCP是MCP协议的快速实现，用于构建工具服务器
