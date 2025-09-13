@@ -10,7 +10,7 @@ import os
 import time
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, Any, List
+from typing import Dict, Any
 
 # 数据模式版本号，用于向后兼容性检查
 SCHEMA_VERSION = "1.0"

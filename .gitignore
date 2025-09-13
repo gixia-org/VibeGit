@@ -1,0 +1,6 @@
+*.egg-info/
+build/
+dist/
+.vscode/settings.json
+__pycache__/
+*.pyc
