@@ -2,25 +2,17 @@
 
 A Model Context Protocol (MCP) server for logging and analyzing AI assistant conversations.
 
-## Installation
+You need only two steps to get started:
 
-Install from PyPI:
+## Step 1: Installation
 
 ```bash
 pip install vibegit-mcp
 ```
 
-Or install from source:
+## Step 2: Configuration
 
-```bash
-git clone https://github.com/gixia-org/VibeGit.git
-cd VibeGit
-pip install .
-```
-
-## Usage
-
-Once installed, you can configure the MCP server in your client application by adding the following to your MCP configuration:
+Once installed, you can configure the MCP configuration file to enable the VibeGit MCP server. Assuming you are using VSCode, you can add a `mcp.json` file in the `.vscode/` directory of your project with the following content:
 
 ```json
 {
@@ -33,14 +25,17 @@ Once installed, you can configure the MCP server in your client application by a
 }
 ```
 
+## Usage
+
+After configuring the MCP server, you can start your AI Coding Agent in VSCode. The VibeGit MCP server will automatically log all conversation rounds to the `.vibe/` directory in your project root.
+
 ## Features
 
 - Log complete conversation rounds between users and AI assistants
 - Track file operations and tool usage
-- Session management with automatic rotation
-- Persistent storage of conversation history
 
 All the logs and data are stored in the `.vibe/` directory under the project root. The directory structure is as follows:
+
 ```
 .vibe/
 ├── rounds/
