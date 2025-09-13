@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "vibegit": {
+      "command": "vibegit-mcp",
+      "args": [],
+      "disabled": false,
+      "autoApprove": [
+        "log_round"
+      ]
+    }
+  }
+}
