@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "session_id": "sess-20250913T065137Z-8250",
+  "started_at": "2025-09-13T06:51:37.943Z",
+  "ended_at": null,
+  "round_ids": [
+    "round-20250913T065137Z-c16d"
+  ],
+  "stats": {
+    "round_count": 1,
+    "events": 20
+  },
+  "hint": null
+}

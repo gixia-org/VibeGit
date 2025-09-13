@@ -97,7 +97,7 @@ class VibeStore:
             self.meta_file.write_text(json.dumps({
                 "schema_version": SCHEMA_VERSION,
                 "privacy_note": "Phase1-no-sanitization"
-            }, ensure_ascii=False, indent=2))
+            }, ensure_ascii=False, indent=2), encoding='utf-8')
         
         # 尝试恢复最新的活跃会话
         sessions = list(self.sessions_dir.glob('sess-*.json'))
